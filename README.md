@@ -5,15 +5,15 @@ For this task, I choose the Library Management System domain.
 
 Step 1: Identify Entities and Relationships
 In a library management system, we can identify the following entities and their relationships:
-1.Books
+1.Books Table:
    Attributes: BookID, Title, AuthorID, ISBN, PublishedYear, CategoryID
-2.Authors
+2.Authors Table:
   Attributes: AuthorID, Name, BirthDate
-3.Categories
+3.Categories Table:
   Attributes: CategoryID, CategoryName
-4.Members
+4.Members Table:
   Attributes: MemberID, Name, Email, Phone, JoinDate
-5.Loans
+5.Loans Table:
   Attributes: LoanID, BookID, MemberID, LoanDate, ReturnDate
   
 Relationships:
